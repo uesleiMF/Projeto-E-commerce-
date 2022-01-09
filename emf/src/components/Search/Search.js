@@ -7,7 +7,7 @@ export default function Search() {
       <span>Procurar:</span>
       <form>
         <FaSearchPlus />
-        <input type='text' placeholder='Procurar jogos por título, personagens, produtora, etc'></input>
+        <input type='text' placeholder='Procurar produtos eletroeletronicos'></input>
         <input type='submit' value='Encontre'></input>
       </form>
     </Container>

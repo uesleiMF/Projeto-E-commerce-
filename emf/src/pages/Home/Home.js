@@ -4,6 +4,9 @@ import CardContainer from '../../components/CardContainer/CardContainer';
 import Card from '../../components/Card/Card';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import Carousel from 'react-bootstrap/Carousel'
+import './Home.css';
+
 
 export default function Home() {
 
@@ -21,14 +24,47 @@ export default function Home() {
   })
 
   return (
-    <>
-      <Banner 
-        image='https://assets.nintendo.com/image/upload/c_pad,f_auto,h_432,q_auto,w_768/ncom/en_US/games/switch/l/life-is-strange-true-colors-switch/hero' 
-        age='16'
-        info='Violência, drogas'
-      />
+
+         <div className='home'>
+
+          <div>
+              <img src="https://images-americanas.b2w.io/produtos/01/00/img/3081358/8/3081358804_1SZ.jpg" width='100%' height='200px'/>
+              <div className="home_legend">Legend 1</div>
+
+               <img src="https://images-americanas.b2w.io/produtos/01/00/img/3081358/8/3081358804_1SZ.jpg" width='100%' height='200px'/>
+              <div className="home_legend">Legend 1</div>
+          </div>
+          
+          
+        
+
+          <div className='hom'>
+
+             <div>
+              <img src="https://images-americanas.b2w.io/produtos/01/00/img/3068549/7/3068549711_1SZ.jpg"width='100%' height='200px'/>
+              <div className="home_legend">Legend 2</div>
+              
+              <img  src="https://portalpopline.com.br/wp-content/uploads/2021/11/homem-aranha-trailer-640x800.jpg"width='100%' height='200px'/>
+              <div className="home_legend">Legend 3</div>
+          </div>
+          
+
+          <div className='ho'>
+         
+          <div>
+              <img  src="https://portalpopline.com.br/wp-content/uploads/2021/11/homem-aranha-trailer-640x800.jpg"width='100%' height='200px'/>
+              <div className="home_legend">Legend 3</div>
+              <img  src="https://portalpopline.com.br/wp-content/uploads/2021/11/homem-aranha-trailer-640x800.jpg"width='100%' height='200px'/>
+              <div className="home_legend">Legend 3</div>
+          </div>
+          
+          
+
+
+        
+
       <Search />
-      <CardContainer title='Jogos'>
+      <CardContainer title='Produtos Eletronicos'>
       {
         games.map(game => (
           <Card 
@@ -40,6 +76,8 @@ export default function Home() {
         ))
       }
       </CardContainer>
-    </>
+  </div>
+  </div>
+  </div>
   )
 }

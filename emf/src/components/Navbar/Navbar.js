@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './logo.webp';
 import {Container, Logo, Links, List, ListItem} from './styles';
 import {FaRegQuestionCircle, FaHeart, FaRegUser, FaUserPlus, FaGamepad} from "react-icons/fa";
 
@@ -7,12 +7,12 @@ export default function Navbar() {
     <Container>
       <Logo>
         <a href='/'>
-          <img src={logo} alt='Nintendo' />
+          <img src={logo} alt='JWM' />
         </a>
       </Logo>
         <List>
           <li>
-            <a href='https://pt-americas-support.nintendo.com/'>
+            <a href='https://www.samsung.com/br/support/'>
               <FaRegQuestionCircle />
               <span>Suporte</span>
             </a>
@@ -20,7 +20,7 @@ export default function Navbar() {
           <li>
             <a href='/wishlist'>
               <FaHeart />
-              <span>Lista de Desejos</span>
+              <span>Lista de Pedidos</span>
             </a>
           </li>
           <li>
@@ -32,7 +32,7 @@ export default function Navbar() {
           <li>
             <a href='/register'>
               <FaUserPlus />
-              <span>Criar conta</span>
+              <span>Criar Conta</span>
             </a>
           </li>
           <li>

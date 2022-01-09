@@ -31,7 +31,7 @@ export default function Register() {
 
   return(
       <Container>
-        <Title>Criar uma conta Nintendo</Title>
+        <Title>Criar uma conta </Title>
         <Form onSubmit={handleSubmit}>
 
           <label>Nome</label>
@@ -57,7 +57,7 @@ export default function Register() {
 
           <Terms>
             <input type='checkbox' required/>
-            <label>Eu concordo com os termos do <a href='https://accounts.nintendo.com/term/eula/BR'>Acordo de usuário da conta Nintendo</a> e confirmo que li a <a href='https://accounts.nintendo.com/term/privacy_policy/BR'>Política de privacidade da Nintendo</a>.</label>
+            <label>Eu concordo com os termos do <a href='https://accounts.nintendo.com/term/eula/BR'>Acordo de usuário da conta Nintendo</a> e confirmo que li a <a href='https://accounts.nintendo.com/term/privacy_policy/BR'>Política de privacidade </a>.</label>
           </Terms>
           <Button>
             <input type='submit' value='Continuar' />

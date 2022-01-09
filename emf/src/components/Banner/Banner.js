@@ -6,7 +6,7 @@ export default function Banner(props) {
     <Container>
       <img src={props.image} alt={props.name} />
       <InfoBar>
-        <span>Já disponível</span>
+        <span>Produtos disponíveis</span>
         <button>Saiba mais <FaAngleRight /></button>
         <AgeBar>
           <Square>{props.age}</Square>

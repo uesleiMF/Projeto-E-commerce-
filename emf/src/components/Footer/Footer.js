@@ -10,8 +10,8 @@ export default function Footer() {
         <a href='https://twitter.com/NintendoAmerica'><FaTwitterSquare /></a>
         <a href='https://www.youtube.com/nintendo'><FaYoutubeSquare /></a>
       </Social>
-      <span>© 2021 Nintendo. Os jogos são propriedade de seus respectivos donos.</span>
-      <span>Nintendo of America Inc. | A sede está localizada em Redmond, Washington (EUA)</span>
+      <span>© 2021 JWM(Produtos Eletronicos). Os EletroEletronicos são produtos nacionais de fabricação brasileira.</span>
+      <span> Com sua loja fisica localizada em Marabá-PA, Brasil</span>
     </Container>
   )
 }

@@ -3,7 +3,7 @@ import { Container, LoginContainer, LostPass, Create } from './styles';
 export default function Login() {
   return (
     <Container>
-      <h2>Criar conta Nintendo</h2>
+      <h2>Acessar Conta </h2>
       <LoginContainer>
         <form>
           <input type='text' placeholder='Endereço de e-mail' required />
@@ -19,7 +19,7 @@ export default function Login() {
 
         <Create>
           <span>Ainda não possui conta?</span>
-          <a href='/register'>Criar uma conta Nintendo</a>
+          <a href='/register'>Criar uma conta</a>
         </Create>
       </LoginContainer>
     </Container>
