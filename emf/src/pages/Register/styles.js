@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
+background-color: #A6E0E9;
+display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+ 
 `
 
 export const Title = styled.h2`
@@ -20,6 +22,7 @@ export const Form = styled.form`
   flex-direction: column;
   width: 40rem;
   margin: 0 0 4rem 0;
+  border-radius:100px;
 
   label {
     font-size: 1.2rem;

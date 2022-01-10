@@ -1,20 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  color: #90a10d;
-  border-bottom: 1px solid #dadada;
+ 
+  border-bottom: 100px ;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 `;
 
 export const Logo = styled.a`
-  background-color:#90a10d ;
+
   padding: 1.2rem 0;
+  background-color: #f8f8f8;
 
   img {
-    width: 8rem;
+    width: 5rem;
     margin: 0 1rem;
+    border-radius: 10px;
   }
 `;
 

@@ -1,14 +1,13 @@
 .home {
       
     width: 100vw;
-  
-  
-  
-         display: flex;
+        display: flex;
         justify-content: center;
         flex-wrap: wrap;
         padding: 6rem;
-        background-color:rgb(206, 192, 69);
+        border-radius: 20px;
+        background-color: rgb(139, 218, 60);
+      
       }
         
     

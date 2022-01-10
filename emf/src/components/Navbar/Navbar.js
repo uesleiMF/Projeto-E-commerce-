@@ -1,6 +1,6 @@
 import logo from './logo.webp';
-import {Container, Logo, Links, List, ListItem} from './styles';
-import {FaRegQuestionCircle, FaHeart, FaRegUser, FaUserPlus, FaGamepad} from "react-icons/fa";
+import {Container, Logo,  List} from './styles';
+import {FaRegQuestionCircle,  FaHeart, FaRegUser, FaUserPlus, FaUser} from "react-icons/fa";
 
 export default function Navbar() {
   return(
@@ -37,7 +37,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href='/profile'>
-              <FaGamepad />
+              <FaUser  />
               <span>Perfil</span>
             </a>
           </li>

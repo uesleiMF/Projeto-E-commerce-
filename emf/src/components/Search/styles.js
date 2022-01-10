@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: #f8f8f8;
-  padding: 4rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  border-radius: 10px;
 
   span {
     font-size: 1.5rem;
@@ -16,10 +17,10 @@ export const Container = styled.div`
 
   input[type=text] {
     margin: 0 0.5rem;
-    width: 32rem;
-    padding: 0.5rem;
+    width: 22rem;
+    padding: 0.9rem;
     font-size: 1.1rem;
-    border: none;
+    border-radius: 100px;
   }
 
   input[type=submit] {
@@ -27,11 +28,11 @@ export const Container = styled.div`
     width: 10rem;
     padding: 1rem;
     font-size: 1.1rem;
-    border: none;
+    border-radius: 60px;
 
     &:hover {
       cursor: pointer;
-      background-color: #a5abb65b;
+      background-color: #414040;
       transition: all 200ms ease;
     }
   }

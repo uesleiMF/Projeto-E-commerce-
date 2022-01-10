@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #f2f2f2;
+  background-color: #A6E0E9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,6 +18,7 @@ export const Container = styled.div`
 export const LoginContainer = styled.div`
   padding: 4rem 4rem 1rem 4rem;
   background-color: #fff;
+  border-radius:100px;
 
   form {
     display: flex;
