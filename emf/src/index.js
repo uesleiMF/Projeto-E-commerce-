@@ -22,7 +22,7 @@ ReactDOM.render(
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/profile' element={<><h2>Perfil</h2></>} />
-        <Route path='/game' element={<><h2>Jogo</h2></>} />
+        <Route path='/eletro' element={<><h2>Eletro</h2></>} />
         <Route path='/wishlist' element={<><h2>Lista de Pedidos</h2></>} />
       </Routes>
     </BrowserRouter>

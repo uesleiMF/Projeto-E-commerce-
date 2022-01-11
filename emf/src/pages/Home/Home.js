@@ -10,12 +10,12 @@ import './Home.css';
 
 export default function Home() {
 
-  const [games, setGames] = useState([]);
+  const [eletros, setEletros] = useState([]);
 
   const getData = async () => {
-    await axios.get('/game/findMany')
+    await axios.get('/eletro/findMany')
     .then(response => {
-      setGames(response.data)
+      setEletros(response.data)
     })
   }
 
@@ -85,12 +85,12 @@ export default function Home() {
       <Search />
       <CardContainer title='Produtos Eletronicos'>
       {
-        games.map(game => (
+        eletros.map(eletro => (
           <Card 
-            key={game.id}
-            image={game.imageUrl}
-            name={game.name}
-            price={game.price}
+            key={eletro.id}
+            image={eletro.imageUrl}
+            name={eletro.name}
+            price={eletro.price}
           />
         ))
       }

@@ -57,7 +57,7 @@ export default function Register() {
 
           <Terms>
             <input type='checkbox' required/>
-            <label>Eu concordo com os termos do <a href='https://accounts.nintendo.com/term/eula/BR'>Acordo de usuário da conta Nintendo</a> e confirmo que li a <a href='https://accounts.nintendo.com/term/privacy_policy/BR'>Política de privacidade </a>.</label>
+            <label>Eu concordo com os termos do <a href='https://www.samsung.com/br/shop/terms_and_conditions_of_sale/'>Acordo de usuário da conta Sansung</a> e confirmo que li a <a href='https://www.samsung.com/br/privacy/'>Política de privacidade </a>.</label>
           </Terms>
           <Button>
             <input type='submit' value='Continuar' />
